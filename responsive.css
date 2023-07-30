@@ -1,0 +1,23 @@
+@media only screen and (max-width:400px){
+    header{
+        background:black;
+        height: 80px;
+    }
+    header h1{
+        padding: 10px 0;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0 20px;
+    }
+    h2{
+        padding-top: 30px;
+    }
+}
