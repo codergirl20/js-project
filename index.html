@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <script src="script.js"></script>
     <header>
         <h1>Resume Builder</h1>
     </header>
@@ -56,13 +57,18 @@
                     </div>
                     <div>
                         <p>Academic qualifications:</p>
-                        <textarea placeholder="enter qualifications"></textarea>
-                        <button>Add+</button>
+                        <div id="qc">
+                            <input type="text" placeholder="qualifications">
+                        </div>
+                        <button onclick="qualadd()">Add+</button>
                     </div>
                     <div>
+                       
                         <p>Work experiences:</p>
-                        <textarea placeholder="enter work experiences"></textarea>
-                        <button>Add+</button>
+                        <div id="we">
+                        <input type="text" placeholder="Work experiences">
+                        </div>
+                        <button onclick="weadd()">Add+</button>
                     </div>
                 </div>
             </div>

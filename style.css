@@ -17,7 +17,12 @@ header h1 {
     color: white;
     font-size: 40px;
 }
-
+#qc input{
+    margin: 5px;
+}
+#we input{
+    margin: 5px;
+}
 .main {
     display: flex;
     flex-direction: row;
@@ -89,3 +94,13 @@ header h1 {
 
 }
 
+.container{
+    margin: 50px;
+}
+.container p{
+    margin: 10px 0;
+}
+.container h2{
+    margin-top : 50px ;
+
+}

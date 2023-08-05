@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    margin: 50px;
+}
+.container p{
+    margin: 10px 0;
+}
+.container h2{
+    margin-top : 50px ;
+
+}
